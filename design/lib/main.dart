@@ -4,6 +4,7 @@ import 'package:design/ScrollView.dart';
 import 'package:design/circularImage.dart';
 import 'package:design/decoration.dart';
 import 'package:design/expanded.dart';
+import 'package:design/form.dart';
 import 'package:design/listview.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyDecoration(),
+      home: const MyForm(),
     );
   }
 }

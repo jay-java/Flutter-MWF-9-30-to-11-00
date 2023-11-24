@@ -11,19 +11,26 @@ class MyDecoration extends StatelessWidget {
           title: Text('MyDecoration'),
         ),
         body: Container(
-          height: double.infinity,
-          width: double.infinity,
+          height: 150,
+          width: 150,
           color: const Color.fromARGB(255, 255, 255, 255),
-          child: Center(
-            child: Container(
-              height: 150,
-              width: 150,
-              // color: Colors.black,
-              decoration: BoxDecoration(
-                color: Colors.blue.shade500,
-                borderRadius: BorderRadius.circular(75),
-                boxShadow: [BoxShadow(color: Colors.grey, blurRadius: 12)],
-              ),
+          child: Card(
+            color: Colors.amber,
+            elevation: 10,
+            shadowColor: Colors.blue,
+            child: Center(
+              child: Text('My Card'),
+
+              // child: Container(
+              //   height: 150,
+              //   width: 150,
+              //   // color: Colors.black,
+              //   decoration: BoxDecoration(
+              //     color: Colors.blue.shade500,
+              //     borderRadius: BorderRadius.circular(15),
+              //     boxShadow: [BoxShadow(color: Colors.grey, blurRadius: 12)],
+              //   ),
+              // ),
             ),
           ),
         ),
