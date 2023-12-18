@@ -1,6 +1,7 @@
 import 'package:design/InkWell.dart';
 import 'package:design/ListTile.dart';
 import 'package:design/ScrollView.dart';
+import 'package:design/bottomnavigation.dart';
 import 'package:design/checkBoc.dart';
 import 'package:design/checkListTile.dart';
 import 'package:design/circularImage.dart';
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyCheckBoxListTile(),
+      home: const MyBottomNavigation(),
     );
   }
 }
