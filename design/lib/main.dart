@@ -11,6 +11,7 @@ import 'package:design/expanded.dart';
 import 'package:design/form.dart';
 import 'package:design/gridview.dart';
 import 'package:design/listview.dart';
+import 'package:design/navigationdrawer.dart';
 import 'package:design/radioListTile.dart';
 import 'package:design/radiobutton.dart';
 import 'package:design/stackwidget.dart';
@@ -27,12 +28,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyBottomNavigation(),
+      home: const MyNavigationDrawer(),
     );
   }
 }
