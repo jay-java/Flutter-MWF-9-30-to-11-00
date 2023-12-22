@@ -12,8 +12,10 @@ import 'package:design/form.dart';
 import 'package:design/gridview.dart';
 import 'package:design/listview.dart';
 import 'package:design/navigationdrawer.dart';
+import 'package:design/pageonde.dart';
 import 'package:design/radioListTile.dart';
 import 'package:design/radiobutton.dart';
+import 'package:design/splashScreen.dart';
 import 'package:design/stackwidget.dart';
 import 'package:flutter/material.dart';
 
@@ -34,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyNavigationDrawer(),
+      home: const MySplashScreen(),
     );
   }
 }
