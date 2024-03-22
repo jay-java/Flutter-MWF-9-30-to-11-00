@@ -1,32 +1,39 @@
-class Student{
+class Student {
   int? id;
   String? name;
   double? per;
-  void setId(int id){
-    this.id=id;
+  void setId(int id) {
+    this.id = id;
   }
-  void setName(String name){
-    this.name=name;
+
+  void setName(String name) {
+    this.name = name;
   }
-  void setPer(double per){
-    this.per=per;
+
+  void setPer(double per) {
+    this.per = per;
   }
-  int? getId(){
+
+  int? getId() {
     return id;
   }
-  String? getName(){
+
+  String? getName() {
     return name;
   }
-  double? getPer(){
+
+  double? getPer() {
     return per;
   }
+
   @override
   String toString() {
     // TODO: implement toString
     return '[id : $id, name : $name, per : $per]';
   }
 }
-void main(){
+
+void main() {
   var s1 = new Student();
   s1.setId(1);
   s1.setName('dart');

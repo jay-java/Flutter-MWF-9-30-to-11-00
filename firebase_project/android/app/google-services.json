@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "201858215076",
+    "project_id": "firstflutter-f5006",
+    "storage_bucket": "firstflutter-f5006.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201858215076:android:879ee579b88f8d1e004a31",
+        "android_client_info": {
+          "package_name": "com.example.firebase_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKyp_T8A_RMcjPTqwqTMxZ00_KjnGOrn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
